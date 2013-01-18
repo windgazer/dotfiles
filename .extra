@@ -1,5 +1,5 @@
 # PATH additions
-export PATH="~/bin:$PATH"
+export PATH="/opt/local/bin:/opt/local/sbin:~/bin:$PATH"
 
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
@@ -9,4 +9,11 @@ git config --global user.name "martin-spil-reurings"
 GIT_AUTHOR_EMAIL="martin@spilgames.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# Edit using TextEdit
+function te {
+  open -a TextEdit $1
+}
+alias shs='python -m SimpleHTTPServer 8080' 
+
 
