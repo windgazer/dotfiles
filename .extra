@@ -5,8 +5,8 @@ export PATH="/opt/local/bin:/opt/local/sbin:~/bin:$PATH"
 # Not in the repository, to prevent people from accidentally committing under my name
 GIT_AUTHOR_NAME="Martin Reurings"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-git config --global user.name "martin-spil-reurings"
-GIT_AUTHOR_EMAIL="Martin.Reurings@spilgames.com"
+git config --global user.name "windgazer"
+GIT_AUTHOR_EMAIL="martin@windgazer.nl"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 
